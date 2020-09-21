@@ -12,6 +12,7 @@ django-heroku = "*"
 django-cors-headers = "*"
 drf-yasg = "*"
 django-rest-framework = "*"
+psutil = "*"
 
 [requires]
 python_version = "3.8"

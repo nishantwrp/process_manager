@@ -8,7 +8,6 @@ verify_ssl = true
 [packages]
 django = "*"
 gunicorn = "*"
-django-heroku = "*"
 django-cors-headers = "*"
 drf-yasg = "*"
 django-rest-framework = "*"

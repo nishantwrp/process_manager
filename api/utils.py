@@ -8,7 +8,7 @@ def get_process_status(task):
         process = psutil.Process(pid)
 
         if process.status() == "zombie":
-            return "Killed"
+            raise Exception("Zombie Process!")
 
         return (
             "Paused"

@@ -1,5 +1,5 @@
 # process_manager
-REST API Server that can be used to create processes, pause them, resume or terminate them. Basically everytime `/tasks/new` endpoint is called it created a new instance of `sample_process.py`.
+REST API Server that can be used to create processes, pause them, resume or terminate them. Basically everytime `/tasks/new` endpoint is called it creates a new instance of `sample_process.py`.
 
 ## Screenshot
 ![screen shot](./ss.png)

@@ -11,3 +11,5 @@ REST API Server that can be used to create processes, pause them, resume or term
 ## Running the project
 - `docker-compose up`
 - Apply the database migrations. (One Time Only - When a new postgres container is created) using `docker-compose run web python manage.py migrate`.
+
+hack3
